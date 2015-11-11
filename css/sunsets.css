@@ -1,0 +1,102 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+.header{
+  width: 100%;
+  background-color: white;
+  height: 7em;
+}
+
+#logo{
+  width: 7%;
+  float: left;
+  margin: 10px 0px 10px 130px;
+}
+
+nav{
+  float: right;
+  margin: 50px 150px 30px 0px;
+}
+
+.header a{
+  padding: 30px;
+}
+
+.main{
+  background-color: black;
+  height: 40em;
+}
+
+#cover{
+  width: 25%;
+  margin: 60px 0px 30px 130px;
+}
+
+#copy{
+  float: right;
+  color: white;
+  margin: 150px 200px 50px 50px;
+}
+
+.arrowprev {
+  float: left;
+  margin-left: 90px;
+  margin-top: 30px;
+}
+.arrownext {
+  float: right;
+  margin-right: 90px;
+  margin-top: 30px;
+}
+.arrow img {
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.reviews {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+.review {
+  display: none;
+  position: absolute;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.active {
+  text-align: center;
+  display: inline;
+  position: absolute;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 50%;
+}
+
+.footer {
+  text-align: center;
+  height: 5em;
+}
+
+.footer p {
+  padding: 10px;
+  margin: 0 auto;
+}
+
+#iconE, #iconP, #iconL{
+  width: 3%;
+  margin: 0px 4px 10px 4px;
+}

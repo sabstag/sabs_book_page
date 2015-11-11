@@ -1,0 +1,62 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+.header{
+  width: 100%;
+  background-color: white;
+  height: 7em;
+}
+
+#logo{
+  width: 7%;
+  float: left;
+  margin: 10px 0px 10px 130px;
+}
+
+nav{
+  float: right;
+  margin: 50px 150px 30px 0px;
+}
+
+.header a{
+  padding: 30px;
+}
+
+.main{
+  background-color: black;
+  height: 32em;
+}
+
+#me{
+  width: 35%;
+  margin: 30px 0px 30px 130px;
+}
+
+#copy{
+  float: right;
+  color: white;
+  margin: 150px 200px 50px 50px;
+}
+
+.footer {
+  text-align: center;
+  height: 5em;
+}
+
+.footer p {
+  padding: 10px;
+  margin: 0 auto;
+}
+
+#iconE, #iconP, #iconL{
+  width: 3%;
+  margin: 0px 4px 10px 4px;
+}
+
