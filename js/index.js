@@ -13,6 +13,7 @@ $(function(){
       $(this).removeClass('active');
     })
     nextSlide.fadeIn(500).addClass('active');
+    setTimeout(function(){ nextSlide.fadeIn('slow').addClass('active-slide'); }, 300);
 
   });
 

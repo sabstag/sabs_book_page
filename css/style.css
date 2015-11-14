@@ -6,6 +6,7 @@
 
 html {
   font-size: 16px;
+  font-family: 'Roboto Condensed', 'sans-serif';
 }
 
 .header{
@@ -17,10 +18,12 @@ html {
 #logo{
   width: 7%;
   float: left;
-  margin: 10px 0px 10px 130px;
+  margin: 10px 0px 0px 130px;
 }
 
 nav{
+  font-size: 1.2em;
+  font-weight: 700;
   float: right;
   margin: 50px 150px 30px 0px;
 }
@@ -32,17 +35,19 @@ nav{
 .main{
   background-color: black;
   height: 32em;
+  width: 100%;
 }
 
 #me{
   width: 35%;
-  margin: 30px 0px 30px 130px;
+  margin: 30px 0px 0px 130px;
 }
 
 #copy{
+  width: 40%;
   float: right;
   color: white;
-  margin: 150px 200px 50px 50px;
+  margin: 100px 100px 50px 0px;
 }
 
 .footer {
@@ -51,6 +56,8 @@ nav{
 }
 
 .footer p {
+  font-size: 1.2em;
+  font-weight: 700;
   padding: 10px;
   margin: 0 auto;
 }
