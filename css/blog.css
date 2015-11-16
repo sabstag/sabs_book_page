@@ -34,23 +34,30 @@ nav{
 
 .main{
   background-color: black;
-  height: 32em;
+  height: 120em;
   width: 100%;
+  margin: 0px;
 }
 
-#me{
-  width: 35%;
-  margin: 30px 0px 0px 130px;
-}
-
-#copy{
-  width: 40%;
-  float: right;
+.post{
   color: #d1d1e0;
-  margin: 100px 100px 50px 0px;
+  display: inline;
+  padding-bottom: 50px;
 }
 
-h1 h2 p{
+.post img{
+  padding: 50px 20px 20px 130px;
+  width: 50%;
+}
+
+.post h1{
+  margin: 0;
+  padding-top: 50px;
+  text-transform: uppercase;
+}
+
+.post p{
+  padding: 0px 150px 0px 130px;
   font-size: 1em;
 }
 
@@ -70,4 +77,3 @@ h1 h2 p{
   width: 3%;
   margin: 0px 4px 10px 4px;
 }
-
