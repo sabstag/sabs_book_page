@@ -90,6 +90,7 @@ ul{
   font-size: 1em;
   color: #d1d1e0;
   margin: auto;
+  padding-bottom: 3em;
 }
 .review {
   display: none;
@@ -192,6 +193,10 @@ span{
   .menu a{
     display: block;
     padding: 1em;
+  }
+
+  .reviews{
+    padding-bottom: 9em;
   }
 
 

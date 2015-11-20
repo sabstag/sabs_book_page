@@ -55,6 +55,12 @@ ul{
   margin: 2em 0% 2em 10%;
 }
 
+div.wrapper {
+  display: inline;
+  overflow: hidden;
+  width: 100%;
+}
+
 #copy{
   width: 40%;
   font-size: 1em;

@@ -47,6 +47,7 @@ ul{
 
 .main{
   background-color: black;
+  overflow: auto;
   width: 100%;
 }
 
@@ -133,7 +134,7 @@ ul{
     margin: 0;
     padding: 0;
     list-style: none;
-    overflow: hidden;;
+    overflow: hidden;
   }
 
   .btn .menu {
@@ -156,5 +157,8 @@ ul{
     padding: 1em;
   }
 
+  iframe{
+    padding-left: 3em;
+  }
 
 }
