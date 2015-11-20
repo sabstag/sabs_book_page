@@ -16,33 +16,43 @@ html {
 }
 
 #logo{
-  width: 7%;
+  width: 5em;
   float: left;
-  margin: 10px 0px 0px 130px;
+  margin: .8em 0 0 10%;
 }
 
-nav{
+ul{
   font-size: 1.2em;
   font-weight: 700;
   float: right;
-  margin: 50px 150px 30px 0px;
+  margin: 2.6em 9% 0 0;
 }
 
-.header a{
-  padding: 30px;
+.header li{
+  list-style-type: none;
+}
+
+.menu a{
+  padding: 1.6em;
+  display: inline;
+}
+
+.btn .menu {
+  display: block;
+}
+
+.btn-link {
+  display: none;
 }
 
 .main{
   background-color: black;
-  height: 120em;
   width: 100%;
-  margin: 0px;
 }
 
 .post{
   color: #d1d1e0;
   display: inline;
-  padding-bottom: 50px;
 }
 
 .post img{
@@ -53,6 +63,7 @@ nav{
 .post h1{
   margin: 0;
   padding-top: 50px;
+  padding-bottom: 10px;
   text-transform: uppercase;
 }
 
@@ -61,19 +72,89 @@ nav{
   font-size: 1em;
 }
 
+.post p:last-child{
+  margin-bottom: 0;
+  padding-bottom: 2em;
+}
+
 .footer {
   text-align: center;
-  height: 5em;
 }
 
 .footer p {
   font-size: 1.2em;
   font-weight: 700;
-  padding: 10px;
+  padding: .6em;
   margin: 0 auto;
 }
 
 #iconE, #iconP, #iconL{
   width: 3%;
-  margin: 0px 4px 10px 4px;
+  margin: 0 .5% .6em .5%;
+}
+
+@media only screen and (max-width: 900px){
+  html{
+    font-size: 14px;
+  }
+
+  .footer{
+    clear: right;
+  }
+
+  #iconE, #iconP, #iconL{
+    width: 5%;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .post img{
+    width: 100%;
+    padding: 10%;
+    padding-bottom: 2em;
+  }
+
+  .post h1{
+    padding-left: 10%
+  }
+
+  .post p{
+    padding: 0 10%;
+  }
+
+  #iconE, #iconP, #iconL{
+    width: 7%;
+  }
+}
+
+@media only screen and (max-width: 480px){
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;;
+  }
+
+  .btn .menu {
+    display: none;
+  }
+
+  .btn:hover .menu {
+    display: block;
+  }
+
+  .btn-link {
+    display: block;
+    float: right;
+    padding: 18px 30px;
+    cursor: pointer;
+  }
+
+  .menu a{
+    display: block;
+    padding: 1em;
+  }
+
+
 }
